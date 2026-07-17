@@ -64,7 +64,9 @@ def main():
         raise ValueError(f"Reference sequence mismatch: {actual}")
 
     with OUTPUT.open("w", encoding="utf-8-sig", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=references[0].keys())
+        writer = csv.DictWriter(
+            file, fieldnames=references[0].keys(), lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(references)
 

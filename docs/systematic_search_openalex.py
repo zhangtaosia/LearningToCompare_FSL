@@ -156,7 +156,9 @@ def main():
         time.sleep(0.15)
 
     with (ROOT / "systematic_search_log.csv").open("w", encoding="utf-8-sig", newline="") as file:
-        writer = csv.DictWriter(file, fieldnames=query_rows[0].keys())
+        writer = csv.DictWriter(
+            file, fieldnames=query_rows[0].keys(), lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(query_rows)
 
@@ -176,7 +178,7 @@ def main():
     with (ROOT / "systematic_search_records.csv").open(
         "w", encoding="utf-8-sig", newline=""
     ) as file:
-        writer = csv.DictWriter(file, fieldnames=fields)
+        writer = csv.DictWriter(file, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(sorted(records.values(), key=lambda row: row["record_key"]))
 
