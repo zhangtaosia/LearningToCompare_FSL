@@ -1,0 +1,13 @@
+﻿query_id,search_date,query,total_hits,records_exported
+Q01,2026-07-17,"""high aspect ratio"" ""internal feature"" metrology",2,2
+Q02,2026-07-17,"""deep hole"" geometrical measurement",2060,200
+Q03,2026-07-17,"""micro hole"" tactile probe metrology",45,45
+Q04,2026-07-17,"""fiber probe"" small hole measurement",1302,200
+Q05,2026-07-17,"""inner surface"" ""structured light"" measurement",315,200
+Q06,2026-07-17,"""pipe inner wall"" ""3D measurement""",3,3
+Q07,2026-07-17,"""measuring endoscope"" 3D industrial",12,12
+Q08,2026-07-17,borescope dimensional measurement,649,200
+Q09,2026-07-17,"""confocal"" ""deep hole"" measurement",267,200
+Q10,2026-07-17,"""low coherence interferometry"" bore measurement",46,46
+Q11,2026-07-17,"""internal surface"" laser triangulation metrology",53,53
+Q12,2026-07-17,"""blade tip clearance"" optical measurement",270,200
