@@ -167,7 +167,7 @@
 
   <!-- Parallel acquisition and flow -->
   <path d="M163 420h27" stroke="#1A7293" stroke-width="4" marker-end="url(#ab)"/>
-  <path d="M163 530h20q10 0 10 10v75" fill="none" stroke="#15998F" stroke-width="4" marker-end="url(#at)"/>
+  <path d="M163 550h27" fill="none" stroke="#15998F" stroke-width="4" marker-end="url(#at)"/>
   <path d="M680 388h42q18 0 18 18v65q0 18 18 18h22" fill="none" stroke="#1A7293" stroke-width="4" marker-end="url(#ab)"/>
   <path d="M680 628h42q18 0 18-18v-67q0-18 18-18h22" fill="none" stroke="#15998F" stroke-width="4" marker-end="url(#at)"/>
   <rect x="695" y="487" width="84" height="31" rx="15" fill="#E5F0F5" stroke="#B7CED9"/>
