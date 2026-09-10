@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7FAFD"/><stop offset="1" stop-color="#EAF3F7"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07385C"/><stop offset="0.58" stop-color="#0A6380"/><stop offset="1" stop-color="#108F8C"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#153F56" flood-opacity=".14"/>
+    </filter>
+    <marker id="ab" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#1A7293"/>
+    </marker>
+    <marker id="at" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#15998F"/>
+    </marker>
+    <marker id="ao" markerWidth="10" markerHeight="10" refX="8.5" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#D67A24"/>
+    </marker>
+    <style>
+      .cn{font-family:"WenQuanYi Micro Hei","Droid Sans Fallback","Microsoft YaHei",sans-serif}
+      .title{font-size:36px;font-weight:800;fill:#fff}.subtitle{font-size:21px;fill:#d7f5f4}
+      .ct{font-size:23px;font-weight:800;fill:#fff}.unit{font-size:15px;fill:#eaf8fb}
+      .body{font-size:18px;fill:#284a5d}.small{font-size:15px;fill:#547080}.out{font-size:16px;font-weight:700;fill:#183f54}
+      .tag{font-size:15px;font-weight:700}.stage{font-size:16px;font-weight:800;letter-spacing:2px}
+    </style>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <circle cx="1810" cy="115" r="250" fill="#3ED0C4" opacity=".07"/>
+  <circle cx="80" cy="1020" r="250" fill="#207AA3" opacity=".05"/>
+
+  <!-- Header -->
+  <rect width="1920" height="110" fill="url(#head)"/>
+  <rect y="106" width="1920" height="4" fill="#48D2C7"/>
+  <text x="960" y="48" class="cn title" text-anchor="middle">高反光精密异形零件表面形貌检测技术路线图</text>
+  <text x="960" y="83" class="cn subtitle" text-anchor="middle">多模态感知 · 精密测量 · 智能评价 · 装备集成 · 工程验证</text>
+
+  <!-- Goal -->
+  <g filter="url(#shadow)">
+    <rect x="180" y="135" width="1560" height="76" rx="18" fill="#fff" stroke="#9ACED1" stroke-width="2"/>
+  </g>
+  <circle cx="228" cy="173" r="25" fill="#118A91"/>
+  <path d="M214 173l10 10 19-22" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <text x="270" y="166" class="cn" font-size="21" font-weight="800" fill="#0B5871">总体目标</text>
+  <text x="270" y="193" class="cn" font-size="18" fill="#315469">面向高反光、弱纹理、复杂异形表面，构建“核心部件—算法软件—检测装备—行业应用”自主技术体系</text>
+
+  <!-- Stage ribbons -->
+  <g class="cn stage" text-anchor="middle">
+    <rect x="195" y="232" width="490" height="34" rx="17" fill="#DCEFF6"/><text x="440" y="255" fill="#176C91">并行感知与精密测量</text>
+    <rect x="790" y="232" width="350" height="34" rx="17" fill="#E7E9F7"/><text x="965" y="255" fill="#515AA1">智能检测与评价</text>
+    <rect x="1230" y="232" width="320" height="34" rx="17" fill="#F9EBDD"/><text x="1390" y="255" fill="#A85B1B">整机集成与精度保障</text>
+    <rect x="1610" y="232" width="250" height="34" rx="17" fill="#E2F1E7"/><text x="1735" y="255" fill="#32744C">工程化与应用验证</text>
+  </g>
+
+  <!-- Input object -->
+  <g filter="url(#shadow)">
+    <rect x="45" y="360" width="118" height="225" rx="22" fill="#fff" stroke="#BDD4DF"/>
+  </g>
+  <path d="M70 432c18-39 52-51 72-26l-12 89c-3 22-44 29-55 3z" fill="#DCE8EE" stroke="#54788A" stroke-width="3"/>
+  <path d="M81 427c16-19 38-23 51-5" fill="none" stroke="#fff" stroke-width="6" opacity=".9"/>
+  <path d="M77 447c18-15 36-17 51-5" fill="none" stroke="#fff" stroke-width="4" opacity=".7"/>
+  <text x="104" y="526" class="cn" text-anchor="middle" font-size="17" font-weight="800" fill="#22566D">高反光</text>
+  <text x="104" y="552" class="cn" text-anchor="middle" font-size="17" font-weight="800" fill="#22566D">异形零件</text>
+
+  <!-- Topic 1 -->
+  <g filter="url(#shadow)">
+    <rect x="200" y="285" width="480" height="205" rx="20" fill="#fff"/>
+    <path d="M200 305q0-20 20-20h440q20 0 20 20v54H200Z" fill="#1979A7"/>
+  </g>
+  <g transform="translate(222 302)" fill="none" stroke="#fff" stroke-width="3">
+    <rect x="0" y="8" width="45" height="31" rx="5"/><circle cx="23" cy="24" r="9"/><path d="M10 8l6-7h15l6 7"/>
+  </g>
+  <text x="280" y="317" class="cn ct">课题1  视觉感知与工业相机</text>
+  <text x="280" y="344" class="cn unit">牵头：埃科光电｜参与：合工大、华科、石大等</text>
+  <rect x="220" y="375" width="82" height="24" rx="12" fill="#E2F2F8"/>
+  <text x="261" y="392" class="cn tag" text-anchor="middle" fill="#176B91">视觉通道</text>
+  <text x="220" y="425" class="cn body">宽动态成像｜大视场高分辨｜高速预处理</text>
+  <text x="220" y="454" class="cn body">散斑/纹理粗糙度感知｜面投影结构光</text>
+  <rect x="485" y="375" width="174" height="87" rx="13" fill="#EBF6FA" stroke="#BEDDEA"/>
+  <text x="501" y="401" class="cn out">核心产出</text>
+  <text x="501" y="428" class="cn small">≥1亿像素工业相机</text>
+  <text x="501" y="451" class="cn small">图像/散斑/纹理特征</text>
+
+  <!-- Topic 2 -->
+  <g filter="url(#shadow)">
+    <rect x="200" y="525" width="480" height="205" rx="20" fill="#fff"/>
+    <path d="M200 545q0-20 20-20h440q20 0 20 20v54H200Z" fill="#159A9C"/>
+  </g>
+  <g transform="translate(223 541)" fill="none" stroke="#fff" stroke-width="3">
+    <path d="M1 39L16 2l17 37Z"/><path d="M16 2l32 15" stroke="#FFE784"/><circle cx="48" cy="17" r="4" fill="#FFE784" stroke="none"/>
+  </g>
+  <text x="280" y="557" class="cn ct">课题2  三维测量与协同扫描</text>
+  <text x="280" y="584" class="cn unit">牵头：上海交大｜参与：石大、天准</text>
+  <rect x="220" y="615" width="82" height="24" rx="12" fill="#E0F4F1"/>
+  <text x="261" y="632" class="cn tag" text-anchor="middle" fill="#117779">三维通道</text>
+  <text x="220" y="665" class="cn body">激光三角测量｜高精度位移传感器</text>
+  <text x="220" y="694" class="cn body">多轴协同扫描｜多视场点云配准融合</text>
+  <rect x="485" y="615" width="174" height="87" rx="13" fill="#E9F7F5" stroke="#B8E0DB"/>
+  <text x="501" y="641" class="cn out">核心产出</text>
+  <text x="501" y="668" class="cn small">激光位移传感器</text>
+  <text x="501" y="691" class="cn small">多轴平台/高精度点云</text>
+
+  <!-- Topic 3 -->
+  <g filter="url(#shadow)">
+    <rect x="790" y="320" width="350" height="365" rx="20" fill="#fff"/>
+    <path d="M790 340q0-20 20-20h310q20 0 20 20v67H790Z" fill="#5B66B2"/>
+  </g>
+  <g transform="translate(813 339)" fill="none" stroke="#fff" stroke-width="3">
+    <rect x="4" y="2" width="40" height="36" rx="7"/><circle cx="16" cy="17" r="3" fill="#fff"/><circle cx="32" cy="17" r="3" fill="#fff"/><path d="M14 28q10 8 21 0"/>
+  </g>
+  <text x="868" y="354" class="cn ct">课题3  智能检测与评价</text>
+  <text x="868" y="382" class="cn unit">牵头：石大｜参与：合工大、天准</text>
+  <rect x="812" y="425" width="86" height="25" rx="12" fill="#E9EAF8"/>
+  <text x="855" y="443" class="cn tag" text-anchor="middle" fill="#4E589A">算法中枢</text>
+  <g class="cn body">
+    <circle cx="820" cy="483" r="4" fill="#5B66B2"/><text x="837" y="489">复杂几何与形位误差检测</text>
+    <circle cx="820" cy="523" r="4" fill="#5B66B2"/><text x="837" y="529">点/线/面微小缺陷AI识别</text>
+    <circle cx="820" cy="563" r="4" fill="#5B66B2"/><text x="837" y="569">散斑/纹理粗糙度参数反演</text>
+    <circle cx="820" cy="603" r="4" fill="#5B66B2"/><text x="837" y="609">多源融合、三维可视化与软件</text>
+  </g>
+  <rect x="812" y="629" width="306" height="40" rx="12" fill="#F0F0FA"/>
+  <text x="965" y="655" class="cn out" text-anchor="middle">算法库｜检测软件｜多要素评价结果</text>
+
+  <!-- Topic 4 -->
+  <g filter="url(#shadow)">
+    <rect x="1230" y="320" width="320" height="365" rx="20" fill="#fff"/>
+    <path d="M1230 340q0-20 20-20h280q20 0 20 20v67H1230Z" fill="#D47A25"/>
+  </g>
+  <g transform="translate(1253 339)" fill="none" stroke="#fff" stroke-width="3">
+    <rect x="1" y="2" width="46" height="34" rx="4"/><path d="M8 29l10-10 8 7 10-13 6 7"/>
+  </g>
+  <text x="1308" y="354" class="cn ct">课题4  检测装备研制</text>
+  <text x="1308" y="382" class="cn unit">牵头：天准｜多单位联合集成</text>
+  <rect x="1252" y="425" width="86" height="25" rx="12" fill="#F9EBDD"/>
+  <text x="1295" y="443" class="cn tag" text-anchor="middle" fill="#A75B1B">装备集成</text>
+  <g class="cn body">
+    <circle cx="1260" cy="483" r="4" fill="#D47A25"/><text x="1277" y="489">模块化总体架构</text>
+    <circle cx="1260" cy="523" r="4" fill="#D47A25"/><text x="1277" y="529">光机电软协同装调</text>
+    <circle cx="1260" cy="563" r="4" fill="#D47A25"/><text x="1277" y="569">系统标定与误差补偿</text>
+    <circle cx="1260" cy="603" r="4" fill="#D47A25"/><text x="1277" y="609">多要素单次协同检测</text>
+  </g>
+  <rect x="1252" y="629" width="276" height="40" rx="12" fill="#FCF2E8"/>
+  <text x="1390" y="655" class="cn out" text-anchor="middle">高反光表面形貌检测整机</text>
+
+  <!-- Topic 5 -->
+  <g filter="url(#shadow)">
+    <rect x="1610" y="320" width="250" height="365" rx="20" fill="#fff"/>
+    <path d="M1610 340q0-20 20-20h210q20 0 20 20v67H1610Z" fill="#39885B"/>
+  </g>
+  <g transform="translate(1630 339)" fill="none" stroke="#fff" stroke-width="3">
+    <path d="M1 37V15l14 8V13l14 9V3h13v34Z"/><path d="M8 31h7m8 0h7m7 0h5"/>
+  </g>
+  <text x="1683" y="354" class="cn ct">课题5  工程化验证</text>
+  <text x="1683" y="382" class="cn unit">牵头：用户单位｜天准支撑</text>
+  <rect x="1632" y="425" width="86" height="25" rx="12" fill="#E2F1E7"/>
+  <text x="1675" y="443" class="cn tag" text-anchor="middle" fill="#2F734B">应用牵引</text>
+  <g class="cn" font-size="17" fill="#284A5D">
+    <circle cx="1640" cy="483" r="4" fill="#39885B"/><text x="1657" y="489">环境适应/可靠性</text>
+    <circle cx="1640" cy="523" r="4" fill="#39885B"/><text x="1657" y="529">工程定型/小批量</text>
+    <circle cx="1640" cy="563" r="4" fill="#39885B"/><text x="1657" y="569">用户长期运行验证</text>
+    <circle cx="1640" cy="603" r="4" fill="#39885B"/><text x="1657" y="609">行业示范与推广</text>
+  </g>
+  <rect x="1632" y="629" width="206" height="40" rx="12" fill="#EAF5ED"/>
+  <text x="1735" y="655" class="cn out" text-anchor="middle">TRL&gt;8｜用户认可</text>
+
+  <!-- Parallel acquisition and flow -->
+  <path d="M163 420h27" stroke="#1A7293" stroke-width="4" marker-end="url(#ab)"/>
+  <path d="M163 530h20q10 0 10 10v75" fill="none" stroke="#15998F" stroke-width="4" marker-end="url(#at)"/>
+  <path d="M680 388h42q18 0 18 18v65q0 18 18 18h22" fill="none" stroke="#1A7293" stroke-width="4" marker-end="url(#ab)"/>
+  <path d="M680 628h42q18 0 18-18v-67q0-18 18-18h22" fill="none" stroke="#15998F" stroke-width="4" marker-end="url(#at)"/>
+  <rect x="695" y="487" width="84" height="31" rx="15" fill="#E5F0F5" stroke="#B7CED9"/>
+  <text x="737" y="508" class="cn" text-anchor="middle" font-size="14" font-weight="700" fill="#3F677A">数据融合</text>
+  <path d="M1140 505h80" stroke="#5B66B2" stroke-width="5" marker-end="url(#ab)"/>
+  <text x="1180" y="488" class="cn small" text-anchor="middle">算法/软件</text>
+  <path d="M1550 505h50" stroke="#D47A25" stroke-width="5" marker-end="url(#ao)"/>
+  <text x="1575" y="488" class="cn small" text-anchor="middle">装备样机</text>
+  <!-- Hardware direct integration -->
+  <path d="M440 730v28q0 16 16 16h918q16 0 16-16v-63" fill="none" stroke="#6F8998" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#ab)"/>
+  <rect x="730" y="752" width="360" height="36" rx="18" fill="#E7EFF3" stroke="#C1D1D9"/>
+  <text x="910" y="776" class="cn" text-anchor="middle" font-size="16" font-weight="700" fill="#4B6979">相机＋传感器＋运动平台 → 光机电软整机集成</text>
+
+  <!-- Application strip -->
+  <rect x="1185" y="710" width="675" height="78" rx="18" fill="#F1F8F3" stroke="#B8D6C1"/>
+  <text x="1208" y="739" class="cn" font-size="16" font-weight="800" fill="#2F724A">典型应用：</text>
+  <g class="cn" font-size="15" fill="#426455" text-anchor="middle">
+    <text x="1300" y="769">大飞机舱门</text><text x="1420" y="769">主反射镜</text>
+    <text x="1540" y="769">仪表球芯</text><text x="1660" y="769">电子元器件</text><text x="1790" y="769">铜/镍电解极板</text>
+  </g>
+
+  <!-- Feedback -->
+  <path d="M1735 685v105q0 18-18 18H280q-18 0-18-18v-48" fill="none" stroke="#39885B" stroke-width="3" stroke-dasharray="9 7" marker-end="url(#at)"/>
+  <rect x="740" y="791" width="440" height="34" rx="17" fill="#E4F1E8" stroke="#AACDB5"/>
+  <text x="960" y="814" class="cn" text-anchor="middle" font-size="16" font-weight="700" fill="#32744C">现场需求、实测数据与可靠性结果闭环反馈 → 技术和装备持续迭代</text>
+
+  <!-- KPI -->
+  <g filter="url(#shadow)">
+    <rect x="70" y="850" width="1780" height="170" rx="22" fill="#fff" stroke="#BDD1DB"/>
+  </g>
+  <path d="M70 872q0-22 22-22h1736q22 0 22 22v28H70Z" fill="#173F59"/>
+  <text x="960" y="883" class="cn" text-anchor="middle" font-size="19" font-weight="800" fill="#fff">2029年10月总体考核目标</text>
+  <g class="cn" text-anchor="middle">
+    <line x1="426" y1="917" x2="426" y2="1000" stroke="#D7E2E8"/><line x1="782" y1="917" x2="782" y2="1000" stroke="#D7E2E8"/>
+    <line x1="1138" y1="917" x2="1138" y2="1000" stroke="#D7E2E8"/><line x1="1494" y1="917" x2="1494" y2="1000" stroke="#D7E2E8"/>
+    <text x="248" y="949" font-size="23" font-weight="800" fill="#1979A7">反射率 ≥ 0.8</text><text x="248" y="981" font-size="16" fill="#526D7C">复杂高反光表面稳定检测</text>
+    <text x="604" y="949" font-size="23" font-weight="800" fill="#159A9C">精度优于 0.03 mm/m</text><text x="604" y="981" font-size="16" fill="#526D7C">尺寸/形位/复杂曲面偏差</text>
+    <text x="960" y="949" font-size="23" font-weight="800" fill="#5B66B2">测量范围 ≥ 2×1×0.5 m</text><text x="960" y="981" font-size="16" fill="#526D7C">缺陷与粗糙度同步获取</text>
+    <text x="1316" y="949" font-size="23" font-weight="800" fill="#D47A25">TRL &gt; 8 · MTBF ≥ 5000 h</text><text x="1316" y="981" font-size="16" fill="#526D7C">定型、小批量与长期运行</text>
+    <text x="1672" y="949" font-size="23" font-weight="800" fill="#39885B">推广应用 ≥ 7套</text><text x="1672" y="981" font-size="16" fill="#526D7C">≥5家供应商目录｜效率提升10倍</text>
+  </g>
+  <text x="1848" y="1055" class="cn" text-anchor="end" font-size="14" fill="#718B99">主线：看得清 → 测得准 → 判得智 → 集得成 → 用得稳</text>
+</svg>
